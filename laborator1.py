@@ -105,4 +105,5 @@ with open('file.txt') as f:
         print("Nu aveti erori.")
     else:
         print("Aveti "+str(errors)+" erori.")
+        
 
