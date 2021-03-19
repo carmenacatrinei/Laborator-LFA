@@ -1,0 +1,29 @@
+# 1.5 g
+# comment lines
+#
+Sigma:
+    a
+    b
+End
+#
+# comment lines
+#
+States:
+   0, S, F
+   1, F
+   2, 
+   3, F
+End
+#
+# comment lines
+#
+Transitions:
+   0, a, 1
+   0, b, 0
+   1, a, 2
+   1, b, 1
+   2, a, 3
+   2, b, 2
+   3, a, 3
+   3, b, 3
+End
